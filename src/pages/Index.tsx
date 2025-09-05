@@ -185,8 +185,8 @@ const Index = () => {
                 <CardContent className="p-8">
                   <div className="flex items-start space-x-4">
                     <div className="flex-shrink-0">
-                      <div className="w-12 h-12 bg-gray-900 rounded-lg flex items-center justify-center group-hover:bg-gray-800 transition-colors">
-                        <Icon name={service.icon} size={24} className="text-white" />
+                      <div className="w-12 h-12 bg-primary rounded-lg flex items-center justify-center group-hover:bg-primary/90 transition-colors">
+                        <Icon name={service.icon} size={24} className="text-primary-foreground" />
                       </div>
                     </div>
                     <div className="flex-1">
@@ -211,24 +211,24 @@ const Index = () => {
           
           <div className="grid md:grid-cols-3 gap-8 mb-12">
             <div className="flex flex-col items-center">
-              <div className="w-16 h-16 bg-gray-900 rounded-full flex items-center justify-center mb-4">
-                <Icon name="Mail" size={24} className="text-white" />
+              <div className="w-16 h-16 bg-primary rounded-full flex items-center justify-center mb-4">
+                <Icon name="Mail" size={24} className="text-primary-foreground" />
               </div>
               <h3 className="text-lg font-semibold text-gray-900 mb-2">Email</h3>
               <p className="text-gray-600">consultant@example.com</p>
             </div>
             
             <div className="flex flex-col items-center">
-              <div className="w-16 h-16 bg-gray-900 rounded-full flex items-center justify-center mb-4">
-                <Icon name="Phone" size={24} className="text-white" />
+              <div className="w-16 h-16 bg-primary rounded-full flex items-center justify-center mb-4">
+                <Icon name="Phone" size={24} className="text-primary-foreground" />
               </div>
               <h3 className="text-lg font-semibold text-gray-900 mb-2">Телефон</h3>
               <p className="text-gray-600">+7 (999) 123-45-67</p>
             </div>
             
             <div className="flex flex-col items-center">
-              <div className="w-16 h-16 bg-gray-900 rounded-full flex items-center justify-center mb-4">
-                <Icon name="MapPin" size={24} className="text-white" />
+              <div className="w-16 h-16 bg-primary rounded-full flex items-center justify-center mb-4">
+                <Icon name="MapPin" size={24} className="text-primary-foreground" />
               </div>
               <h3 className="text-lg font-semibold text-gray-900 mb-2">Офис</h3>
               <p className="text-gray-600">Москва, Россия</p>
@@ -243,7 +243,7 @@ const Index = () => {
       </section>
 
       {/* Footer */}
-      <footer className="bg-gray-900 py-12">
+      <footer className="bg-primary py-12">
         <div className="max-w-6xl mx-auto px-6">
           <div className="text-center">
             <p className="text-gray-400 mb-4">
